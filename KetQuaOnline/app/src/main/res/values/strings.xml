@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KetQuaOnline</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvGiaiDacBiet">Đặc biệt</string>
+    <string name="tvGiaiNhat">Giải nhất</string>
+    <string name="tvGiaiNhi">Giải nhì</string>
+    <string name="tvGiaiBa">Giải ba</string>
+    <string name="tvGiaiTu">Giải tư</string>
+    <string name="tvGiaiNam">Giải năm</string>
+    <string name="tvGiaiSau">Giải sáu</string>
+    <string name="tvGiaiBay">Giải bảy</string>
+</resources>
