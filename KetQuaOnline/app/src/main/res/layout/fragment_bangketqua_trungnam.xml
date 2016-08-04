@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/table_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Start header  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorHeaderKetQua"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="Kết quả xổ số miền nam ngày 03/08/2016 " />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end header  -->
+
+        <!-- Start  giải 0-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiDacBiet"
+                android:textColor="@color/colorRed" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiDacBiet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123"
+                android:textColor="@color/colorRed" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  giải 0-->
+
+        <!-- Start  giải 1-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiNhat" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiNhat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  giải 1-->
+
+        <!-- Start  giải 2-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiNhi" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiNhi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  giải 2 -->
+
+        <!-- Start  giải 3-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiBa" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiBa"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  giải 3 -->
+
+        <!-- Start  giải 4-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiTu" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiTu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  giải 4 -->
+
+        <!-- Start  giải 5-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiNam" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiNam"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  giải 5 -->
+
+        <!-- Start  giải 6-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiSau" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiSau"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  giải 6 -->
+
+        <!-- Start  giải 7-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiBay" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiBay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  giải 7 -->
+
+        <!-- Start  giải 8-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/tvGiaiTam" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvKQMNGiaiTam"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/table_margin"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@color/colorBlack" />
+        </LinearLayout>
+        <!-- end  Giải 8 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@color/colorBlack" />
+    </LinearLayout>
+
+</LinearLayout>

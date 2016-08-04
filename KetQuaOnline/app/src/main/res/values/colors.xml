@@ -8,5 +8,7 @@
     <color name="colorRelactiveLayout">#a9a3a3</color>
     <color name="colorBlack">#414141</color>
     <color name="colorHeaderKetQua">#4D9900</color>
+    <color name="colorText">#000000</color>
+    <color name="color_Nav_Item">#28bcb0</color>
 
 </resources>
