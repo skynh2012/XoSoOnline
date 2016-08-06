@@ -10,5 +10,8 @@
     <color name="colorHeaderKetQua">#4D9900</color>
     <color name="colorText">#000000</color>
     <color name="color_Nav_Item">#28bcb0</color>
+    <color name="color_Button">#689F38</color>
+    <color name="color_Button_Text">#ffffff</color>
+
 
 </resources>

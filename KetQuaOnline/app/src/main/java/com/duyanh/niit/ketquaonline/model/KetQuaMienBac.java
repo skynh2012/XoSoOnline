@@ -12,14 +12,14 @@ public class KetQuaMienBac {
     public KetQuaMienBac() {
     }
 
-    private ArrayList<String> GiaiNhi;
-    private ArrayList<String> GiaiBa;
-    private ArrayList<String> GiaiTu;
-    private ArrayList<String> GiaiNam;
-    private ArrayList<String> GiaiSau;
-    private ArrayList<String> GiaiBay;
+    private String GiaiNhi;
+    private String GiaiBa;
+    private String GiaiTu;
+    private String GiaiNam;
+    private String GiaiSau;
+    private String GiaiBay;
 
-    public KetQuaMienBac(String giaiDacBiet, String giaiNhat, ArrayList<String> giaiNhi, ArrayList<String> giaiBa, ArrayList<String> giaiTu, ArrayList<String> giaiNam, ArrayList<String> giaiSau, ArrayList<String> giaiBay) {
+    public KetQuaMienBac(String giaiDacBiet, String giaiNhat, String giaiNhi, String giaiBa, String giaiTu, String giaiNam, String giaiSau, String giaiBay) {
         GiaiDacBiet = giaiDacBiet;
         GiaiNhat = giaiNhat;
         GiaiNhi = giaiNhi;
@@ -46,51 +46,51 @@ public class KetQuaMienBac {
         GiaiNhat = giaiNhat;
     }
 
-    public ArrayList<String> getGiaiNhi() {
+    public String getGiaiNhi() {
         return GiaiNhi;
     }
 
-    public void setGiaiNhi(ArrayList<String> giaiNhi) {
+    public void setGiaiNhi(String giaiNhi) {
         GiaiNhi = giaiNhi;
     }
 
-    public ArrayList<String> getGiaiBa() {
+    public String getGiaiBa() {
         return GiaiBa;
     }
 
-    public void setGiaiBa(ArrayList<String> giaiBa) {
+    public void setGiaiBa(String giaiBa) {
         GiaiBa = giaiBa;
     }
 
-    public ArrayList<String> getGiaiTu() {
+    public String getGiaiTu() {
         return GiaiTu;
     }
 
-    public void setGiaiTu(ArrayList<String> giaiTu) {
+    public void setGiaiTu(String giaiTu) {
         GiaiTu = giaiTu;
     }
 
-    public ArrayList<String> getGiaiNam() {
+    public String getGiaiNam() {
         return GiaiNam;
     }
 
-    public void setGiaiNam(ArrayList<String> giaiNam) {
+    public void setGiaiNam(String giaiNam) {
         GiaiNam = giaiNam;
     }
 
-    public ArrayList<String> getGiaiSau() {
+    public String getGiaiSau() {
         return GiaiSau;
     }
 
-    public void setGiaiSau(ArrayList<String> giaiSau) {
+    public void setGiaiSau(String giaiSau) {
         GiaiSau = giaiSau;
     }
 
-    public ArrayList<String> getGiaiBay() {
+    public String getGiaiBay() {
         return GiaiBay;
     }
 
-    public void setGiaiBay(ArrayList<String> giaiBay) {
+    public void setGiaiBay(String giaiBay) {
         GiaiBay = giaiBay;
     }
 }
